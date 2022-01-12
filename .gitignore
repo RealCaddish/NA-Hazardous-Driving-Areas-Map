@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# source data
+src/csv/Hazardous_driving_areas.csv
