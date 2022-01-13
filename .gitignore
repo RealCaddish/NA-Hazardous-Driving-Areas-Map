@@ -105,3 +105,7 @@ dist
 
 # source data
 src/csv/Hazardous_driving_areas.csv
+
+
+# non-cleaned data folder
+src/data
