@@ -1,0 +1,31 @@
+{
+  "name": "na-hazardous-driving-areas-map",
+  "version": "1.0.0",
+  "description": "A map of hazardous driving areas in North America (United States, Canada, Mexico). This project seeks to create a web map of collisions in North America and produce an aggregation of state/province area divided by the total number of collisions from a point-in-polygon analysis. The source for this dataset was found on kaggle at <a href=\"https://www.kaggle.com/terenceshin/hazardous-driving-spots-around-the-world\"> This Link</a>.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealCaddish/NA-Hazardous-Driving-Areas-Map.git"
+  },
+  "author": "Nathaniel R Deaton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealCaddish/NA-Hazardous-Driving-Areas-Map/issues"
+  },
+  "homepage": "https://github.com/RealCaddish/NA-Hazardous-Driving-Areas-Map#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "csv-loader": "^3.0.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "lodash": "^4.17.21"
+  }
+}
